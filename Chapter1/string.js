@@ -11,6 +11,15 @@ lastName=`Shafi\'s`;
  let fullName = firstName + "" + lastName;
  console.log(fullName);
 
+
+ let a = prompt("Enter your Name" , "Enter First Name");
+let b = prompt("Enter your Name" , "Enter Last Name");
+let c = prompt("Enter your Salery" , "Enter your Income");
+ 
+fullName = a + b ;
+let d = `Hi \"${fullName}"\ . Have a great day \n Your First Name is "${a}" \n Your Last Name is "${b}" \n Your salary is ${c}\n\t Thanks for Your Time` ; 
+alert(d);
+
  //String Methods
 
  console.log(fullName.repeat(2));
